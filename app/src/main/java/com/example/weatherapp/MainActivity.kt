@@ -59,8 +59,8 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var it_newZip: TextInputEditText
 
-    private val APIKEY = "759c169b47233d6e56b90c6496b82d4b"
-    private var ZIP_CODE = "10001"
+    private val APIKEY = "API_KEY" // Add API key here
+    private var ZIP_CODE = "10001" // New York
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
